@@ -1,4 +1,3 @@
-//colores
 const colores = ["green", "blue", "red"];
 
 function colorAleatorio() {
