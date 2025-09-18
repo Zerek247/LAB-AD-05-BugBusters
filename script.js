@@ -1,5 +1,5 @@
 //colores
-const colores = ["green", "blue", "red"];
+const colores = ['#4CAF50', '#4A90E2', '#E74C3C'];
 
 function colorAleatorio() {
   const indice = Math.floor(Math.random() * colores.length);

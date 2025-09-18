@@ -1,12 +1,38 @@
-body{
+
+body {
     background-color: #d3d3d3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
 }
-h3{
-    color: #66BB6A
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
-.blueh3{
-    color: #0badf8;
+
+.galeria figure {
+    flex: 1 1 120px;
+    width: 150px;
+    text-align: center;
+    margin: 0;
 }
-.redh3{
-    color: red;
+
+.galeria img {
+    width: 100%;
+    height: auto;
+}
+
+.green-text {
+    color: #4CAF50;
+}
+
+.blue-text {
+    color: #4A90E2;
+}
+
+.red-text {
+    color: #E74C3C;
 }
